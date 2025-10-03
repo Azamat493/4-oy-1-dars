@@ -31,7 +31,7 @@
 
   <body class="bg-[#1a1a1a]">
     <header
-      class="bg-gradient-to-b from-[#333333] to-[#1a1a1a] text-white sticky top-0 z-999"
+      class="bg-gradient-to-b from-[#333333] to-[#1a1a1a] text-white sticky z-999 top-0"
     >
       <div
         class="md:hidden max-w-[1600px] mx-auto w-[90%] p-[20px_0px] flex items-center justify-between relative"
@@ -217,8 +217,18 @@
         <img
           src="./images/image 24.png"
           alt=""
-          class="absolute top-[30%] right-0 z-10 hidden md:block"
+          class="absolute sm:top-[30%] top-[60%] right-0 z-10 hidden sm:block"
         />
+        <img
+          src="./images/image 24 (2).png"
+          alt=""
+          class="absolute top-[30%] right-0 z-10 flex sm:hidden"
+        />
+      </div>
+    </header>
+
+    <main>
+      <section>
         <div class="max-w-[1600px] mx-auto w-[90%] p-[] sm:py-12">
           <div class="">
             <h1
@@ -232,23 +242,25 @@
               Ваша машина в надежных руках!
             </p>
           </div>
-            <div class="relative mt-10 md:mt-0 block sm:hidden">
-              <h2
-                class="font-extrabold absolute text-3xl z-10 left-[40%] xl:text-[100px] md:text-[55px] whitespace-nowrap leading-[96%] tracking-[-0.04em] uppercase text-white font-montserrat"
-              >
-                F812 SUPER
-              </h2>
-              <img
-                src="./images/image 20.png"
-                alt=""
-                class="z-20 mt-[20px] relative bg-[url('/images/Ellipse.png')] bg-no-repeat bg-center bg-cover"
-              />
-            </div>
-          <div class="flex md:items-start items-center gap-[50px]  flex-col md:flex-row">
+          <div class="relative mt-10 md:mt-0 block sm:hidden">
+            <h2
+              class="font-extrabold absolute text-3xl z-10 left-[40%] xl:text-[100px] md:text-[55px] whitespace-nowrap leading-[96%] tracking-[-0.04em] uppercase text-white font-montserrat"
+            >
+              F812 SUPER
+            </h2>
+            <img
+              src="./images/image 20.png"
+              alt=""
+              class="z-20 mt-[20px] relative bg-[url('/images/Ellipse.png')] bg-no-repeat bg-center bg-cover"
+            />
+          </div>
+          <div
+            class="flex md:items-start items-center gap-[50px] pr-[20px] flex-col md:flex-row"
+          >
             <div class="max-w-lg">
               <a
                 href="#"
-                class="justify-center sm:flex hidden text-white py-3 px-6  items-center transition duration-300 font-montserrat font-semibold text-lg bg-[linear-gradient(180deg,#f00_0%,#c70000_100%)] hover:bg-[linear-gradient(180deg,#c70000_0%,#900000_100%)] w-80 h-[62px] rounded-[10px]"
+                class="justify-center sm:flex hidden text-white py-3 px-6 items-center transition duration-300 font-montserrat font-semibold text-lg bg-[linear-gradient(180deg,#f00_0%,#c70000_100%)] hover:bg-[linear-gradient(180deg,#c70000_0%,#900000_100%)] w-80 h-[62px] rounded-[10px]"
               >
                 ОСТАВИТЬ ЗАЯВКУ
               </a>
@@ -374,14 +386,14 @@
                   >
                 </div>
               </div>
-               <a
+              <a
                 href="#"
-                class="justify-center mt-[20px] sm:hidden flex text-white py-3 px-6  items-center transition duration-300 font-montserrat font-semibold text-lg bg-[linear-gradient(180deg,#f00_0%,#c70000_100%)] hover:bg-[linear-gradient(180deg,#c70000_0%,#900000_100%)] sm:w-80 w-full  h-[62px] rounded-[10px]"
+                class="justify-center sm:ml-0 ml-[15px] mt-[20px] sm:hidden flex text-white py-3 px-6 items-center transition duration-300 font-montserrat font-semibold text-lg bg-[linear-gradient(180deg,#f00_0%,#c70000_100%)] hover:bg-[linear-gradient(180deg,#c70000_0%,#900000_100%)] sm:w-80 w-full h-[62px] rounded-[10px]"
               >
                 ОСТАВИТЬ ЗАЯВКУ
               </a>
               <div
-                class="mt-10 flex ml-[5px] items-center gap-[10px] group cursor-pointer"
+                class="mt-10 flex ml-[5px] sm:justify-start justify-center items-center gap-[10px] group cursor-pointer"
               >
                 <svg
                   width="28"
@@ -423,7 +435,7 @@
             </div>
           </div>
         </div>
-      </div>
-    </header>
+      </section>
+    </main>
   </body>
 </html>
