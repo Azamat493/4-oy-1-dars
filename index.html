@@ -11,8 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <style>
       html {
         scroll-behavior: smooth;
@@ -1412,12 +1410,22 @@
         </div>
       </div>
     </footer>
-    <script>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+  />
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
       AOS.init({
-        duration: 800,
-        easing: "ease",
-        once: true,
+        duration: 800,      
+        easing: "ease",      
+        once: true,          
+        mirror: false,       
+        offset: 100,         
       });
-    </script>
+    });
+  </script>
   </body>
 </html>
