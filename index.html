@@ -12,6 +12,9 @@
       rel="stylesheet"
     />
     <style>
+      html {
+        scroll-behavior: smooth;
+      }
       @media (max-width: 953px) {
         .menu {
           display: block;
@@ -30,6 +33,7 @@
   </head>
 
   <body class="bg-[#1a1a1a]">
+    <a id="top"></a>
     <header
       class="bg-gradient-to-b w-full from-[#333333] to-[#1a1a1a] text-white sticky top-0 z-[999]"
     >
@@ -1241,6 +1245,82 @@
           </div>
         </div>
       </section>
+
+      <section class="mt-[50px]">
+        <div class="w-full max-w-[1600px] mx-auto my-8">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.120485779207!2d37.61842381592981!3d55.75124478055309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab2b5b1d87c0f%3A0x1234567890abcdef!2z0JrQsNGA0LDQvdCw0YLRjCwg0JrQsNGC0YHRgtC-0LLQtdGA0L7QstCw!5e0!3m2!1sru!2sru!4v1696000000000!5m2!1sru!2sru"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </section>
     </main>
+    <footer class="mt-[40px] p-[20px] mb-[20px]">
+      <div
+        class="w-[90%] flex items-start justify-between max-w-[1600px] mx-auto"
+      >
+        <div>
+          <a href="./index.html">
+            <img src="./images/Frame.png" alt="" />
+          </a>
+          <h1
+            class="font-medium mt-[30px] text-base leading-[140%] text-white font-montserrat"
+          >
+            © 2023 Company name
+          </h1>
+          <h1
+            class="font-medium text-base mt-[15px] leading-[140%] text-white font-montserrat"
+          >
+            Все права защищены
+          </h1>
+        </div>
+        <div class="flex items-center gap-[20px]">
+          <a
+            href="#"
+            class="font-semibold text-lg text-white font-montserrat hover:text-gray-300 transition"
+            >Услуги</a
+          >
+          <a
+            href="#"
+            class="font-semibold text-lg text-white font-montserrat hover:text-gray-300 transition"
+            >Преимущества</a
+          >
+          <a
+            href="#"
+            class="font-semibold text-lg text-white font-montserrat hover:text-gray-300 transition"
+            >Наши работы</a
+          >
+          <a
+            href="#"
+            class="font-semibold text-lg text-white font-montserrat hover:text-gray-300 transition"
+            >Контакты</a
+          >
+        </div>
+        <div class="flex flex-col items-end gap-[70px]">
+          <div class="flex items-center gap-[15px] group cursor-pointer">
+            <a
+              href="#top"
+              class="transition-transform duration-300 group-hover:-translate-y-1"
+            >
+              <img src="./images/next 1.png" alt="Наверх" class="" />
+            </a>
+            <a
+              href="#top"
+              class="font-semibold text-lg leading-[140%] text-center text-white font-montserrat transition-colors duration-300 group-hover:text-[#ff0000]"
+            >
+              Наверх
+            </a>
+          </div>
+          <div class="font-medium  text-base leading-[140%] text-white font-montserrat">
+            Политика конфиденциальности
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
